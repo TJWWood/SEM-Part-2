@@ -1,1 +1,17 @@
 c:\users\thomas\documents\visual studio 2015\Projects\SEM Part 2\SEM Part 2\bin\Debug\SEM Part 2.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\bin\Debug\SEM Part 2.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\MainWindow.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\App.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2_MarkupCompile.cache
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2_MarkupCompile.lref
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\bin\Debug\SEM Part 2.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\bin\Debug\SEM Part 2.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\bin\Debug\Business.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\bin\Debug\Business.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\MainWindow.baml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.g.resources
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM_Part_2.Properties.Resources.resources
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.csproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.pdb
