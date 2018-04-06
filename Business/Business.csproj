@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Bicycle.cs" />
     <Compile Include="Breaks.cs" />
-    <Compile Include="Customer.cs" />
     <Compile Include="FinishingSet.cs" />
     <Compile Include="Frame.cs" />
     <Compile Include="Gears.cs" />
