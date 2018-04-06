@@ -30,7 +30,7 @@ namespace Business
             {
                 return breaks;
             }
-            set 
+            set
             {
                 breaks = value;
             }
