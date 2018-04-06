@@ -26,7 +26,7 @@ namespace SEM_Part_2
 
         public MainWindow()
         {
-            InitializeComponent();     
+            InitializeComponent();
         }
 
         private void btn_Submit_Click(object sender, RoutedEventArgs e)
@@ -34,7 +34,7 @@ namespace SEM_Part_2
             Random rand = new Random();
 
             Business.Frame frame = new Business.Frame();
-            if(rand.Next(0,1) == 1)
+            if (rand.Next(0, 2) == 1)
             {
                 frame.Type = combo_frame_type.Text;
                 frame.Colour = combo_frame_colour.Text;
@@ -55,8 +55,8 @@ namespace SEM_Part_2
             frame.Cost = frameTypeCost + frameColourCost + frameSizeCost;
 
             Gears gears = new Gears();
-            if (rand.Next(0, 1) == 1)
-            { 
+            if (rand.Next(0, 2) == 1)
+            {
                 gears.Type = combo_gears.Text;
             }
             else
@@ -69,7 +69,7 @@ namespace SEM_Part_2
             gears.Cost = Double.Parse(((ComboBoxItem)combo_gears.SelectedItem).Tag.ToString());
 
             Breaks breaks = new Breaks();
-            if (rand.Next(0, 1) == 1)
+            if (rand.Next(0, 2) == 1)
             {
                 breaks.Type = combo_breaks.Text;
             }
@@ -86,10 +86,22 @@ namespace SEM_Part_2
             groupSet.Breaks = breaks;
             groupSet.Cost = groupSet.calculateGroupSet(gears, breaks);
 
-            //DO WHEELS HERE
+            Wheels wheels = new Wheels();
+            if (rand.Next(0, 2) == 1)
+            {
+                wheels.Type = combo_handlebars.Text;
+
+            }
+            else
+            {
+                MessageBox.Show("Wheels OOS: Adding 2 days to Completion Time");
+                wheels.Type = combo_handlebars.Text;
+                duration += 2;
+            }
+            wheels.Cost = Double.Parse(((ComboBoxItem)combo_wheels.SelectedItem).Tag.ToString());
 
             Handlebars handleBars = new Handlebars();
-            if (rand.Next(0, 1) == 1)
+            if (rand.Next(0, 2) == 1)
             {
                 handleBars.Type = combo_handlebars.Text;
             }
@@ -102,7 +114,7 @@ namespace SEM_Part_2
             handleBars.Cost = Double.Parse(((ComboBoxItem)combo_handlebars.SelectedItem).Tag.ToString());
 
             Saddle saddle = new Saddle();
-            if (rand.Next(0, 1) == 1)
+            if (rand.Next(0, 2) == 1)
             {
                 saddle.Type = combo_saddle.Text;
             }
@@ -123,16 +135,22 @@ namespace SEM_Part_2
             bicycle.Frame = frame;
             bicycle.GroupSet = groupSet;
             bicycle.FinishingSet = finishingSet;
-            bicycle.Cost = bicycle.calculateFinalCost(frame, groupSet, finishingSet);
+            bicycle.Cost = bicycle.calculateFinalCost(frame, groupSet, finishingSet, wheels);
             bicycle.Duration = duration;
             duration = 2;
 
             bikeList.Add(bicycle);
+            string output = "";
+            int bikeNum = 1;
+            double totalCost = 0.0;
 
-            foreach(Bicycle bike in bikeList)
+            foreach (Bicycle bike in bikeList)
             {
-                MessageBox.Show("Bike added! \nCost: " + bike.Cost + "\nCompletion Time: " + bike.Duration + " days.");
+                output += "Bike " + bikeNum + ":\n" + "Cost: " + bike.Cost + "\nCompletion Time: " + bike.Duration + " days.\n\n";
+                bikeNum++;
+                totalCost += bike.Cost;
             }
+            MessageBox.Show(output);
         }
     }
 }

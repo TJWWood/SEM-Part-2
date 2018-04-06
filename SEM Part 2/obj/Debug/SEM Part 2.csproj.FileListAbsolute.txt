@@ -15,3 +15,19 @@ C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\
 C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.csproj.GenerateResource.Cache
 C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.exe
 C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\bin\Debug\SEM Part 2.exe.config
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.exe
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\bin\Debug\SEM Part 2.exe
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\bin\Debug\SEM Part 2.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\bin\Debug\Business.dll
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\bin\Debug\Business.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.csprojResolveAssemblyReference.cache
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\MainWindow.g.cs
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\App.g.cs
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2_MarkupCompile.cache
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2_MarkupCompile.lref
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\MainWindow.baml
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.g.resources
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM_Part_2.Properties.Resources.resources
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\SEM Part 2\obj\Debug\SEM Part 2.csproj.GenerateResource.Cache

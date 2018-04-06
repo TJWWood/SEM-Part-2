@@ -11,6 +11,7 @@ namespace Business
         private Frame frame;
         private FinishingSet finishingSet;
         private GroupSet groupSet;
+        private Wheels wheels;
         private double cost;
         private int duration;
 
@@ -50,6 +51,18 @@ namespace Business
             }
         }
 
+        public Wheels Wheels
+        {
+            get
+            {
+                return wheels;
+            }
+            set
+            {
+                wheels = value;
+            }
+        }
+
         public double Cost
         {
             get
@@ -74,9 +87,9 @@ namespace Business
             }
         }
 
-        public double calculateFinalCost(Frame frame, GroupSet gs, FinishingSet fs)
+        public double calculateFinalCost(Frame frame, GroupSet gs, FinishingSet fs, Wheels wheels)
         {
-            return frame.Cost + gs.Cost + fs.Cost;
+            return frame.Cost + gs.Cost + fs.Cost + wheels.Cost;
         }
     }
 }

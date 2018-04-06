@@ -28,15 +28,15 @@
         <Label x:Name="lbl_type" Content="Type:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl_colour" Content="Colour:" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl_size" Content="Size:" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="combo_frame_type" HorizontalAlignment="Left" Margin="60,40,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_frame_type" HorizontalAlignment="Left" Margin="60,40,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Frame1" Tag="100"/>
             <ComboBoxItem Content="Frame2" Tag="150"/>
         </ComboBox>
-        <ComboBox x:Name="combo_frame_colour" HorizontalAlignment="Left" Margin="60,75,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_frame_colour" HorizontalAlignment="Left" Margin="60,75,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Blue" Tag="20"/>
             <ComboBoxItem Content="Green" Tag="15"/>
         </ComboBox>
-        <ComboBox x:Name="combo_frame_size" HorizontalAlignment="Left" Margin="60,111,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_frame_size" HorizontalAlignment="Left" Margin="60,111,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Small" Tag="100"/>
             <ComboBoxItem Content="Medium" Tag="150"/>
             <ComboBoxItem Content="Large" Tag="200"/>
@@ -44,23 +44,27 @@
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="1" Margin="-152,128,0,0" VerticalAlignment="Top" Width="4"/>
         <Label x:Name="lbl_group_gears" Content="Gears:" HorizontalAlignment="Left" Margin="272,36,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl_group_breaks" Content="Breaks:" HorizontalAlignment="Left" Margin="272,71,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="combo_gears" HorizontalAlignment="Left" Margin="319,40,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_gears" HorizontalAlignment="Left" Margin="319,40,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Gears1" Tag="45"/>
             <ComboBoxItem Content="Gears2" Tag="78"/>
         </ComboBox>
-        <ComboBox x:Name="combo_breaks" HorizontalAlignment="Left" Margin="319,75,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_breaks" HorizontalAlignment="Left" Margin="319,75,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Breaks1" Tag="63.5"/>
             <ComboBoxItem Content="Breaks2" Tag="34.65"/>
         </ComboBox>
         <Label x:Name="lbl_wheels_type" Content="Type:" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="combo_wheels" HorizontalAlignment="Left" Margin="60,188,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="combo_wheels" HorizontalAlignment="Left" Margin="60,188,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Small" Tag="87"/>
+            <ComboBoxItem Content="Medium" Tag="134"/>
+            <ComboBoxItem Content="Large" Tag="247"/>
+        </ComboBox>
         <Label x:Name="lbl_finishing_handlebars" Content="Handlebars:" HorizontalAlignment="Left" Margin="272,184,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl_finishing_saddle" Content="Saddle:" HorizontalAlignment="Left" Margin="272,215,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="combo_handlebars" HorizontalAlignment="Left" Margin="350,188,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_handlebars" HorizontalAlignment="Left" Margin="350,188,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Handlebars1" Tag="27.9"/>
             <ComboBoxItem Content="Handlebars2" Tag="99"/>
         </ComboBox>
-        <ComboBox x:Name="combo_saddle" HorizontalAlignment="Left" Margin="350,219,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="combo_saddle" HorizontalAlignment="Left" Margin="350,219,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Saddle1" Tag="55.5"/>
             <ComboBoxItem Content="Saddle2" Tag="77.7"/>
         </ComboBox>
