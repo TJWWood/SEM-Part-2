@@ -89,7 +89,7 @@ namespace Business
 
         public double calculateFinalCost(Frame frame, GroupSet gs, FinishingSet fs, Wheels wheels)
         {
-            return frame.Cost + gs.Cost + fs.Cost + wheels.Cost;
+            return 100.0 + frame.Cost + gs.Cost + fs.Cost + wheels.Cost;
         }
     }
 }

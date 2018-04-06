@@ -136,6 +136,10 @@ namespace SEM_Part_2
             bicycle.GroupSet = groupSet;
             bicycle.FinishingSet = finishingSet;
             bicycle.Cost = bicycle.calculateFinalCost(frame, groupSet, finishingSet, wheels);
+            if(check_warranty.IsChecked == true)
+            {
+                bicycle.Cost += 50.0;
+            }        
             bicycle.Duration = duration;
             duration = 2;
 
@@ -150,7 +154,7 @@ namespace SEM_Part_2
                 bikeNum++;
                 totalCost += bike.Cost;
             }
-            MessageBox.Show(output);
+            MessageBox.Show(output + "\nTotal Cost: " + totalCost);
         }
     }
 }

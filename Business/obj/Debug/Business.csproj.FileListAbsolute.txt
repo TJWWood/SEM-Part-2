@@ -8,3 +8,8 @@ C:\Users\Thomas\Documents\Visual Studio 2015\Projects\SEM-Part-2\Business\obj\De
 \\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
 \\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\Business\obj\Debug\Business.dll
 \\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2\Business\obj\Debug\Business.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2 - Full Project\Business\bin\Debug\Business.dll
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2 - Full Project\Business\bin\Debug\Business.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2 - Full Project\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2 - Full Project\Business\obj\Debug\Business.dll
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40295704\My Profile\Desktop\SEM-Part-2 - Full Project\Business\obj\Debug\Business.pdb

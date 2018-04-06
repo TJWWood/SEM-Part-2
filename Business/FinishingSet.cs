@@ -51,7 +51,6 @@ namespace Business
         public double calculateFinishingSet(Handlebars handle, Saddle saddle)
         {
             double output = handle.Cost + saddle.Cost;
-            cost = output;
             return output;
         }
     }
